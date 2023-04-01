@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+	<object class="wxFrame" name="MainFrame">
+		<style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+		<pos>100,100</pos>
+		<size>1000,800</size>
+		<title>Machine Demonstrator</title>
+		<aui_managed>0</aui_managed>
+		<object class="wxMenuBar" name="MenuBar">
+			<object class="wxMenu" name="FileMenu">
+				<label>_File</label>
+				<object class="wxMenuItem" name="wxID_EXIT">
+					<label>E_xit\tAlt-X</label>
+					<help>Exit the Application</help>
+				</object>
+			</object>
+			<object class="wxMenu" name="HelpMenu">
+				<label>_Help</label>
+				<object class="wxMenuItem" name="wxID_ABOUT">
+					<label>_About\tF1</label>
+					<help></help>
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="StatusBar">
+			<style>wxSTB_SIZEGRIP</style>
+			<fields>1</fields>
+		</object>
+	</object>
+	<object class="wxPanel" name="ControlPanel">
+		<style>wxBORDER_SUNKEN|wxTAB_TRAVERSAL</style>
+		<size>900,-1</size>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxFlexGridSizer">
+					<rows>2</rows>
+					<cols>11</cols>
+					<vgap>0</vgap>
+					<hgap>0</hgap>
+					<growablecols>3,5,8,10</growablecols>
+					<growablerows></growablerows>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxLEFT</flag>
+						<border>5</border>
+						<object class="wxBitmapButton" name="Rewind">
+							<style>wxBORDER_NONE</style>
+							<bitmap>rewind.png</bitmap>
+							<default>0</default>
+							<auth_needed>0</auth_needed>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<object class="wxBitmapButton" name="Play">
+							<style>wxBORDER_NONE</style>
+							<bitmap>play.png</bitmap>
+							<default>0</default>
+							<auth_needed>0</auth_needed>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<object class="wxBitmapButton" name="Stop">
+							<style>wxBORDER_NONE</style>
+							<bitmap>stop.png</bitmap>
+							<default>0</default>
+							<auth_needed>0</auth_needed>
+						</object>
+					</object>
+					<object class="spacer">
+						<option>1</option>
+						<flag>wxEXPAND</flag>
+						<border>5</border>
+						<size>0,0</size>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT</flag>
+						<border>10</border>
+						<object class="wxStaticText" name="m_staticText4">
+							<label>Frame:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALIGN_CENTER_VERTICAL</flag>
+						<border>10</border>
+						<object class="wxStaticText" name="FrameNumber">
+							<size>40,-1</size>
+							<label>0</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxRIGHT</flag>
+						<border>5</border>
+						<object class="wxButton" name="SelectMachine">
+							<label>Select Machine</label>
+							<default>0</default>
+							<auth_needed>0</auth_needed>
+							<markup>0</markup>
+							<bitmap />
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL</flag>
+						<border>10</border>
+						<object class="wxStaticText" name="m_staticText6">
+							<label>Machine:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALIGN_CENTER_VERTICAL</flag>
+						<border>10</border>
+						<object class="wxStaticText" name="MachineNumber">
+							<size>20,-1</size>
+							<label>0</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT|wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="m_staticText8">
+							<label>Speed:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>2</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxSlider" name="SpeedSlider">
+							<style>wxSL_AUTOTICKS|wxSL_HORIZONTAL</style>
+							<value>5</value>
+							<min>0</min>
+							<max>10</max>
+						</object>
+					</object>
+					<object class="spacer">
+						<option>1</option>
+						<flag>wxEXPAND</flag>
+						<border>5</border>
+						<size>0,0</size>
+					</object>
+					<object class="spacer">
+						<option>1</option>
+						<flag>wxEXPAND</flag>
+						<border>5</border>
+						<size>0,0</size>
+					</object>
+					<object class="spacer">
+						<option>1</option>
+						<flag>wxEXPAND</flag>
+						<border>5</border>
+						<size>0,0</size>
+					</object>
+					<object class="spacer">
+						<option>1</option>
+						<flag>wxEXPAND</flag>
+						<border>5</border>
+						<size>0,0</size>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxALIGN_RIGHT</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="m_staticText81">
+							<label>Time:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>2</option>
+						<flag>wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="MachineTime">
+							<size>40,-1</size>
+							<label>0</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="spacer">
+						<option>1</option>
+						<flag>wxEXPAND</flag>
+						<border>5</border>
+						<size>0,0</size>
+					</object>
+					<object class="spacer">
+						<option>1</option>
+						<flag>wxEXPAND</flag>
+						<border>5</border>
+						<size>0,0</size>
+					</object>
+					<object class="spacer">
+						<option>1</option>
+						<flag>wxEXPAND</flag>
+						<border>5</border>
+						<size>0,0</size>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_RIGHT|wxALL</flag>
+						<border>5</border>
+						<object class="wxStaticText" name="m_staticText9">
+							<label>Zoom:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALL|wxEXPAND</flag>
+						<border>5</border>
+						<object class="wxSlider" name="ZoomSlider">
+							<style>wxSL_AUTOTICKS|wxSL_HORIZONTAL</style>
+							<value>5</value>
+							<min>0</min>
+							<max>10</max>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxBOTTOM|wxEXPAND|wxLEFT|wxRIGHT|wxTOP</flag>
+				<border>10</border>
+				<object class="wxSlider" name="FrameSlider">
+					<style>wxSL_AUTOTICKS|wxSL_HORIZONTAL</style>
+					<value>0</value>
+					<min>0</min>
+					<max>300</max>
+				</object>
+			</object>
+		</object>
+	</object>
+	<object class="wxDialog" name="AboutDialog">
+		<style>wxDEFAULT_DIALOG_STYLE</style>
+		<title>About MachineDemo</title>
+		<centered>1</centered>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag></flag>
+				<border>5</border>
+				<object class="wxStaticBitmap" name="m_bitmap1">
+					<bg>#ffffff</bg>
+					<bitmap>machine.png</bitmap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxStaticText" name="m_staticText11">
+					<style>wxALIGN_CENTER_HORIZONTAL</style>
+					<label>The Amazing\nMachine Demonstrator\n\nby\n\nCharles B. Owen\n</label>
+					<wrap>-1</wrap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>10</border>
+				<object class="wxStaticText" name="MachineDemoVersion">
+					<style>wxALIGN_CENTER_HORIZONTAL</style>
+					<label>Version 0.00</label>
+					<wrap>-1</wrap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+				<border>5</border>
+				<object class="wxButton" name="wxID_OK">
+					<label>Ok</label>
+					<default>0</default>
+					<auth_needed>0</auth_needed>
+					<markup>0</markup>
+					<bitmap />
+				</object>
+			</object>
+		</object>
+	</object>
+	<object class="wxDialog" name="MachineDialog">
+		<style>wxDEFAULT_DIALOG_STYLE</style>
+		<title>Machine Selection</title>
+		<centered>1</centered>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag></flag>
+				<border>5</border>
+				<object class="wxStaticBitmap" name="bitmap">
+					<bitmap>machines.png</bitmap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxALIGN_CENTER_HORIZONTAL</flag>
+				<border>5</border>
+				<object class="wxBoxSizer">
+					<orient>wxHORIZONTAL</orient>
+					<object class="sizeritem">
+						<option>1</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxBOTTOM|wxTOP</flag>
+						<border>10</border>
+						<object class="wxStaticText" name="labelMachineNumber">
+							<style>wxALIGN_RIGHT</style>
+							<label>Machine Number:</label>
+							<wrap>-1</wrap>
+						</object>
+					</object>
+					<object class="spacer">
+						<option>0</option>
+						<flag>wxEXPAND</flag>
+						<border>5</border>
+						<size>5,0</size>
+					</object>
+					<object class="sizeritem">
+						<option>0</option>
+						<flag>wxALIGN_CENTER_VERTICAL|wxBOTTOM|wxTOP</flag>
+						<border>10</border>
+						<object class="wxTextCtrl" name="mMachineNumberCtrl">
+							<size>50,-1</size>
+							<value>1</value>
+						</object>
+					</object>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxStdDialogButtonSizer">
+					<object class="button">
+						<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+						<border>5</border>
+						<object class="wxButton" name="wxID_OK">
+							<label>&amp;OK</label>
+						</object>
+					</object>
+					<object class="button">
+						<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+						<border>5</border>
+						<object class="wxButton" name="wxID_CANCEL">
+							<label>&amp;Cancel</label>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>

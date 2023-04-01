@@ -1,0 +1,3 @@
+repository='https://github.com/charles-owen/MachineDemoLib.git'
+module=''
+tag='origin'

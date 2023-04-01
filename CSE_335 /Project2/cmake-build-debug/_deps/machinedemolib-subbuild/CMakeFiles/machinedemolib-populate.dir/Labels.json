@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-subbuild/CMakeFiles/machinedemolib-populate"
+		},
+		{
+			"file" : "/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-subbuild/CMakeFiles/machinedemolib-populate.rule"
+		},
+		{
+			"file" : "/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-subbuild/CMakeFiles/machinedemolib-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/machinedemolib-populate-build.rule"
+		},
+		{
+			"file" : "/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/machinedemolib-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/machinedemolib-populate-download.rule"
+		},
+		{
+			"file" : "/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/machinedemolib-populate-install.rule"
+		},
+		{
+			"file" : "/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/machinedemolib-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/machinedemolib-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/machinedemolib-populate-test.rule"
+		},
+		{
+			"file" : "/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-subbuild/machinedemolib-populate-prefix/src/machinedemolib-populate-stamp/machinedemolib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"machinedemolib-populate"
+		],
+		"name" : "machinedemolib-populate"
+	}
+}

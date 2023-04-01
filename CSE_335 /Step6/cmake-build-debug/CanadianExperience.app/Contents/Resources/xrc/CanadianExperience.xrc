@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxFrame" name="MainFrame">
+		<style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+		<pos>50,50</pos>
+		<size>1000,800</size>
+		<title>CanadianExperience</title>
+		<aui_managed>0</aui_managed>
+		<object class="wxMenuBar" name="m_menubar1">
+			<label>MyMenuBar</label>
+			<object class="wxMenu" name="FileMenu">
+				<label>_File</label>
+				<object class="wxMenuItem" name="wxID_EXIT">
+					<label>E_xit\tAlt-X</label>
+					<help>Exit this application</help>
+				</object>
+			</object>
+			<object class="wxMenu" name="Edit">
+				<label>_Edit</label>
+				<object class="wxMenuItem" name="EditMove">
+					<label>_Move</label>
+					<help>Use the mouse to move</help>
+					<checkable>1</checkable>
+				</object>
+				<object class="wxMenuItem" name="EditRotate">
+					<label>_Rotate</label>
+					<help></help>
+					<checkable>1</checkable>
+				</object>
+			</object>
+			<object class="wxMenu" name="HelpMenu">
+				<label>_Help</label>
+				<object class="wxMenuItem" name="wxID_ABOUT">
+					<label>_About\tF1</label>
+					<help>About this Application</help>
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="m_statusBar1">
+			<style>wxSTB_SIZEGRIP</style>
+			<fields>1</fields>
+		</object>
+		<object class="wxToolBar" name="Toolbar">
+			<style>wxTB_HORIZONTAL</style>
+			<bitmapsize>32,32</bitmapsize>
+			<margins></margins>
+			<packing>1</packing>
+			<separation>5</separation>
+			<object class="tool" name="EditMove">
+				<label>Move</label>
+				<tooltip></tooltip>
+				<longhelp></longhelp>
+				<bitmap>move32.png</bitmap>
+				<toggle>1</toggle>
+			</object>
+			<object class="tool" name="EditRotate">
+				<label>Rotate</label>
+				<tooltip></tooltip>
+				<longhelp></longhelp>
+				<bitmap>rotate32.png</bitmap>
+				<toggle>1</toggle>
+			</object>
+		</object>
+	</object>
+	<object class="wxDialog" name="AboutDialog">
+		<style>wxDEFAULT_DIALOG_STYLE</style>
+		<title>About Canadian Experience</title>
+		<centered>1</centered>
+		<object class="wxBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL</flag>
+				<border>5</border>
+				<object class="wxStaticBitmap" name="m_bitmap1">
+					<bitmap>about-image.jpg</bitmap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+				<border>5</border>
+				<object class="wxStaticText" name="m_staticText1">
+					<label>Canadian Experience Rules</label>
+					<wrap>-1</wrap>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+				<border>5</border>
+				<object class="wxButton" name="wxID_OK">
+					<label>Ok</label>
+					<default>0</default>
+					<markup>0</markup>
+					<bitmap />
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>

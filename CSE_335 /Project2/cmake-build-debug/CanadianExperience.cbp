@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CanadianExperience"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CanadianExperienceLib\;CMake Files\MachineLib\;CMake Files\Tests\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\googletest-src\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\;CMake Files\cmake-build-debug\_deps\machinedemolib-src\;CMake Files\MachineTests\;CMake Files\MachineDemo\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CanadianExperience">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperience.app/Contents/MacOS/CanadianExperience" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 CanadianExperience"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CanadianExperience/fast">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperience.app/Contents/MacOS/CanadianExperience" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 CanadianExperience/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CanadianExperienceLib">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib/libCanadianExperienceLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/../MachineLib/include"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib/Makefile&quot;  VERBOSE=1 CanadianExperienceLib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CanadianExperienceLib/fast">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib/libCanadianExperienceLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/../MachineLib/include"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib/Makefile&quot;  VERBOSE=1 CanadianExperienceLib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MachineLib">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/libMachineLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 MachineLib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MachineLib/fast">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/libMachineLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 MachineLib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tests_run">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests/Tests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 Tests_run"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tests_run/fast">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests/Tests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 Tests_run/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MachineTests_run">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests/MachineTests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/MachineTests/../MachineLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests/Makefile&quot;  VERBOSE=1 MachineTests_run"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MachineTests_run/fast">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests/MachineTests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/MachineTests/../MachineLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests/Makefile&quot;  VERBOSE=1 MachineTests_run/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MachineDemo">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo/MachineDemo.app/Contents/MacOS/MachineDemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/MachineDemo/../MachineLib/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo/Makefile&quot;  VERBOSE=1 MachineDemo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MachineDemo/fast">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo/MachineDemo.app/Contents/MacOS/MachineDemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/MachineDemo/../MachineLib/include"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo/Makefile&quot;  VERBOSE=1 MachineDemo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MachineDemoLib">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build/libMachineDemoLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build/Makefile&quot;  VERBOSE=1 MachineDemoLib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MachineDemoLib/fast">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build/libMachineDemoLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build/Makefile&quot;  VERBOSE=1 MachineDemoLib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceApp.cpp">
+			<Option target="CanadianExperience"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceApp.h">
+			<Option target="CanadianExperience"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceIcon.icns">
+			<Option target="CanadianExperience"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/Actor.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/Actor.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/Adapter.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/Adapter.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/AnimChannel.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/AnimChannel.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/AnimChannelAngle.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/AnimChannelAngle.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/AnimChannelPoint.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/AnimChannelPoint.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/Drawable.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/Drawable.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/HaroldFactory.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/HaroldFactory.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/HeadTop.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/HeadTop.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/ImageDrawable.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/ImageDrawable.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/MainFrame.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/MainFrame.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/Picture.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/Picture.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/PictureFactory.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/PictureFactory.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/PictureObserver.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/PictureObserver.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/PolyDrawable.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/PolyDrawable.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/RotatedBitmap.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/RotatedBitmap.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/SpartyFactory.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/SpartyFactory.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/Timeline.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/Timeline.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/TimelineDlg.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/TimelineDlg.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/ViewEdit.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/ViewEdit.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/ViewTimeline.cpp">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/ViewTimeline.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/pch.h">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineDemo/MachineIsolator.h">
+			<Option target="MachineDemo"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineDemo/main.cpp">
+			<Option target="MachineDemo"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Arm.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Arm.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Component.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Component.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Gear.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Gear.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/INegotiator.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/INegotiator.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Lever.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Lever.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Machine.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Machine.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Machine1Factory.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Machine1Factory.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Machine2Factory.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Machine2Factory.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineActual.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineActual.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineDialog.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineDialog.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineFactory.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineFactory.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineStandin.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineStandin.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Motor.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Motor.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MovementSink.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MovementSink.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MovementSource.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MovementSource.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Piston.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Piston.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Polygon.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Polygon.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Rod.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Rod.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/RodSink.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/RodSink.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/RotationSink.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/RotationSink.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/RotationSource.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/RotationSource.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Shape.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Shape.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/WorkingMachine.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/WorkingMachine.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/include/machine-api.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/pch.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineTests/MachineTest.cpp">
+			<Option target="MachineTests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineTests/gtest_main.cpp">
+			<Option target="MachineTests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/Tests/ActorTest.cpp">
+			<Option target="Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/Tests/AnimChannelAngleTest.cpp">
+			<Option target="Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/Tests/DrawableTest.cpp">
+			<Option target="Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/Tests/ImageDrawableTest.cpp">
+			<Option target="Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/Tests/PictureObserverTest.cpp">
+			<Option target="Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/Tests/PictureTest.cpp">
+			<Option target="Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/Tests/PolyDrawableTest.cpp">
+			<Option target="Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/Tests/TimelineTest.cpp">
+			<Option target="Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/Tests/gtest_main.cpp">
+			<Option target="Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CMakeFiles/CanadianExperience.dir/cmake_pch.hxx">
+			<Option target="CanadianExperience"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CMakeFiles/CanadianExperience.dir/cmake_pch.hxx.cxx">
+			<Option target="CanadianExperience"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib/CMakeFiles/CanadianExperienceLib.dir/cmake_pch.hxx">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/CanadianExperienceLib/CMakeFiles/CanadianExperienceLib.dir/cmake_pch.hxx.cxx">
+			<Option target="CanadianExperienceLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo/CMakeFiles/MachineDemo.dir/cmake_pch.hxx">
+			<Option target="MachineDemo"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo/CMakeFiles/MachineDemo.dir/cmake_pch.hxx.cxx">
+			<Option target="MachineDemo"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineDemo/MachineDemoIcon.icns">
+			<Option target="MachineDemo"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx.cxx">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests/CMakeFiles/MachineTests_run.dir/cmake_pch.hxx">
+			<Option target="MachineTests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineTests/CMakeFiles/MachineTests_run.dir/cmake_pch.hxx.cxx">
+			<Option target="MachineTests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests/CMakeFiles/Tests_run.dir/cmake_pch.hxx">
+			<Option target="Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/Tests/CMakeFiles/Tests_run.dir/cmake_pch.hxx.cxx">
+			<Option target="Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build/CMakeFiles/MachineDemoLib.dir/cmake_pch.hxx">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-build/CMakeFiles/MachineDemoLib.dir/cmake_pch.hxx.cxx">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/AboutDialog.cpp">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/AboutDialog.h">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/ControlPanel.cpp">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/ControlPanel.h">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/Controller.cpp">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/Controller.h">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/IMachineIsolator.h">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/MachineDemoBaseApp.cpp">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/MachineDemoBaseApp.h">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/MachineDemoMainFrame.cpp">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/MachineDemoMainFrame.h">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/MachineView.cpp">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/MachineView.h">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/pch.h">
+			<Option target="MachineDemoLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/resources/MachineDemo.rc">
+			<Option target="MachineDemo"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/main.cpp">
+			<Option target="CanadianExperience"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/pch.h">
+			<Option target="CanadianExperience"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/resources/CanadianExperience.rc">
+			<Option target="CanadianExperience"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CanadianExperienceLib\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MachineLib\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/Tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\machinedemolib-src\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/Config.h.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\machinedemolib-src\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MachineTests\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineDemo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MachineDemo\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

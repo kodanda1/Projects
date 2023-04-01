@@ -1,0 +1,72 @@
+\hypertarget{class_goat}{}\doxysection{Goat Class Reference}
+\label{class_goat}\index{Goat@{Goat}}
+Inheritance diagram for Goat\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_goat}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_goat_a924f2b4c48781507fcb2781022e8f24a}\label{class_goat_a924f2b4c48781507fcb2781022e8f24a}} 
+enum class \mbox{\hyperlink{class_goat_a924f2b4c48781507fcb2781022e8f24a}{Type}} \{ \newline
+{\bfseries Nanny}
+, {\bfseries Billy}
+, {\bfseries Wether}
+, {\bfseries Malekid}
+, \newline
+{\bfseries Femalekid}
+ \}
+\begin{DoxyCompactList}\small\item\em The types of cow we can have on our farm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_goat_aac3d3ca1a3cb26ec72ec18687f8c09c4}{Obtain\+Goat\+Information}} ()
+\item 
+void \mbox{\hyperlink{class_goat_aa4b7850b84334842edd133d4ff94218f}{Display\+Animal}} () override
+\item 
+bool \mbox{\hyperlink{class_goat_a0faeec41898575771fd140af87066cbc}{is\+Female}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_goat_aa4b7850b84334842edd133d4ff94218f}\label{class_goat_aa4b7850b84334842edd133d4ff94218f}} 
+\index{Goat@{Goat}!DisplayAnimal@{DisplayAnimal}}
+\index{DisplayAnimal@{DisplayAnimal}!Goat@{Goat}}
+\doxysubsubsection{\texorpdfstring{DisplayAnimal()}{DisplayAnimal()}}
+{\footnotesize\ttfamily void Goat\+::\+Display\+Animal (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Display information about this goat. 
+
+Reimplemented from \mbox{\hyperlink{class_animal_a0e7119b37803fe4e46562cb9791f501b}{Animal}}.
+
+\mbox{\Hypertarget{class_goat_a0faeec41898575771fd140af87066cbc}\label{class_goat_a0faeec41898575771fd140af87066cbc}} 
+\index{Goat@{Goat}!isFemale@{isFemale}}
+\index{isFemale@{isFemale}!Goat@{Goat}}
+\doxysubsubsection{\texorpdfstring{isFemale()}{isFemale()}}
+{\footnotesize\ttfamily bool Goat\+::is\+Female (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Check for two types of goat which are female.
+
+\begin{DoxyReturn}{Returns}
+true for two female goats or else false. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_animal}{Animal}}.
+
+\mbox{\Hypertarget{class_goat_aac3d3ca1a3cb26ec72ec18687f8c09c4}\label{class_goat_aac3d3ca1a3cb26ec72ec18687f8c09c4}} 
+\index{Goat@{Goat}!ObtainGoatInformation@{ObtainGoatInformation}}
+\index{ObtainGoatInformation@{ObtainGoatInformation}!Goat@{Goat}}
+\doxysubsubsection{\texorpdfstring{ObtainGoatInformation()}{ObtainGoatInformation()}}
+{\footnotesize\ttfamily void Goat\+::\+Obtain\+Goat\+Information (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Obtain information from the user about this goat.
+
+Asks the user for the information that describes a goat. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_goat_8h}{Goat.\+h}}\item 
+\mbox{\hyperlink{_goat_8cpp}{Goat.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MachineLib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CanadianExperienceLib\;CMake Files\MachineLib\;CMake Files\Tests\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\_deps\;CMake Files\cmake-build-debug\_deps\googletest-src\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\;CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\;CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\;CMake Files\cmake-build-debug\_deps\machinedemolib-src\;CMake Files\MachineTests\;CMake Files\MachineDemo\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MachineLib">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/libMachineLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 MachineLib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MachineLib/fast">
+				<Option output="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/libMachineLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-DWXUSINGDLL"/>
+					<Add option="-D__WXMAC__"/>
+					<Add option="-D__WXOSX__"/>
+					<Add option="-D__WXOSX_COCOA__"/>
+					<Add directory="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib"/>
+					<Add directory="/usr/local/lib/wx/include/osx_cocoa-unicode-3.1"/>
+					<Add directory="/usr/local/include/wx-3.1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 MachineLib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Arm.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Arm.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Component.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Component.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Gear.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Gear.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/INegotiator.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/INegotiator.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Lever.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Lever.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Machine.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Machine.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Machine1Factory.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Machine1Factory.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Machine2Factory.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Machine2Factory.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineActual.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineActual.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineDialog.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineDialog.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineFactory.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineFactory.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineStandin.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MachineStandin.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Motor.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Motor.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MovementSink.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MovementSink.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MovementSource.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/MovementSource.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Piston.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Piston.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Polygon.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Polygon.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Rod.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Rod.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/RodSink.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/RodSink.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/RotationSink.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/RotationSink.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/RotationSource.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/RotationSource.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Shape.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/Shape.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/WorkingMachine.cpp">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/WorkingMachine.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/include/machine-api.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/pch.h">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/MachineLib/CMakeFiles/MachineLib.dir/cmake_pch.hxx.cxx">
+			<Option target="MachineLib"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/CanadianExperienceLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CanadianExperienceLib\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MachineLib\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/Tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Tests\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/googletest-src/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\googletest-src\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\machinedemolib-src\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/cmake-build-debug/_deps/machinedemolib-src/Config.h.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\_deps\machinedemolib-src\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MachineTests\"/>
+		</Unit>
+		<Unit filename="/Users/varunreddy/Desktop/Project2Starter/MachineDemo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MachineDemo\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

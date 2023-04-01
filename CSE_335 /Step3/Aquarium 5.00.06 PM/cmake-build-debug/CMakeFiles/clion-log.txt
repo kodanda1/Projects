@@ -1,0 +1,15 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/Users/varunreddy/Desktop/step3/Aquarium 5.00.06 PM"
+CMake Error: The current CMakeCache.txt directory /Users/varunreddy/Desktop/step3/Aquarium 5.00.06 PM/cmake-build-debug/_deps/googletest-subbuild/CMakeCache.txt is different than the directory /Users/varunreddy/Desktop/step3/Aquarium/cmake-build-debug/_deps/googletest-subbuild where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FetchContent.cmake:1000 (message):
+  CMake step for googletest failed: 1
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FetchContent.cmake:1141:EVAL:2 (__FetchContent_directPopulate)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FetchContent.cmake:1141 (cmake_language)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FetchContent.cmake:1184 (FetchContent_Populate)
+  Tests/CMakeLists.txt:16 (FetchContent_MakeAvailable)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/varunreddy/Desktop/step3/Aquarium 5.00.06 PM/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/varunreddy/Desktop/step3/Aquarium 5.00.06 PM/cmake-build-debug/CMakeFiles/CMakeError.log".
