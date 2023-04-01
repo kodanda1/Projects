@@ -1,0 +1,12 @@
+gethex:
+removed all tests that the index is valid
+remove 	b get_hex_done at end of get_hex_low
+
+
+sethex:
+removed the test for less than zero index
+remove logical shift left on setting high values
+
+sorthex:
+bge changed to bgt for both loops
+swap no longer actually swaps
