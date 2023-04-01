@@ -5,5 +5,5 @@
 # MTH 314(Matrix Algebra with Computational 3 Applications): python(jupyter notebook)
 # CSE 335(Object-Oriented Software Design): C++
 # CSE 325(Computer Systems): C++
-# CSE 402(Biometrics and Pattern Recognition): python(jupyter notebook)
-# CSE 891(
+# CSE 402(Biometrics and Pattern Recognition): python(jupyter notebook) & matlab
+# CSE 891(AIOT; Computational Intelligence in the Edge): Python & matlab
