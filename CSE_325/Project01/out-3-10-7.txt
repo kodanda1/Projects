@@ -1,0 +1,41 @@
+USER: varunreddy
+HOST:
+DATE: Mon Sep 27 09:39:17 EDT 2021
+PARAMETERS: trials=3, numpages=10, probe=7
+ 
+Run 1
+cycles used for ==3153
+cycles used for ==4177
+cycles used for ==3612
+cycles used for ==3492
+cycles used for ==3397
+cycles used for ==3370
+cycles used for ==3320
+cycles used for ==17
+cycles used for ==3411
+cycles used for ==3606
+ 
+Run 2
+cycles used for ==2847
+cycles used for ==3324
+cycles used for ==3204
+cycles used for ==3488
+cycles used for ==3387
+cycles used for ==3407
+cycles used for ==3218
+cycles used for ==17
+cycles used for ==2846
+cycles used for ==3310
+ 
+Run 3
+cycles used for ==3659
+cycles used for ==5080
+cycles used for ==4535
+cycles used for ==4200
+cycles used for ==4122
+cycles used for ==4107
+cycles used for ==3651
+cycles used for ==16
+cycles used for ==4083
+cycles used for ==3939
+ 

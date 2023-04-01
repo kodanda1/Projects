@@ -1,0 +1,4 @@
+cache-perf: cache-perf.cpp
+	gcc -Wall -g -o cache-perf cache-perf.cpp
+
+

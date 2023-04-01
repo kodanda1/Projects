@@ -1,0 +1,16 @@
+USER: varunreddy
+HOST:
+DATE: Wed Oct 20 13:24:56 EDT 2021
+ 
+Time: 564.3712: proc-sig: process 42752 starting with parameters 0, 0
+Time: 639.600: proc-sig: process 42759 starting with parameters 1, 42752
+Time: 680.2596: proc-sig: process 42787 starting with parameters 2, 42759
+Time: 685.353: proc-sig: PID 42787 received SIGINT
+Time: 688.8117:   user entered b
+Time: 693.1682: proc-sig: PID 42787 received SIGINT
+Time: 695.1731:   user entered a
+Time: 695.2733: proc-sig: PID 42759 received SIGUSR1
+Time: 695.3739: proc-sig: PID 42752 received SIGUSR2
+Time: 695.6769: proc-sig: PID 42752 exiting.
+Time: 695.7758: proc-sig: PID 42759 exiting.
+Time: 695.8773: proc-sig: PID 42787 exiting.
