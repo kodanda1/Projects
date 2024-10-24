@@ -7,4 +7,4 @@
 # CSE 331(Algorithms and Data Structures): Python
 # CSE 325(Computer Systems): C++
 # CSE 402(Biometrics and Pattern Recognition): Python(jupyter notebook) & Matlab
-# CSE 841(Artificial Intelligence): Python(jupyter notebook)
+# CSE 891(AIoT): Python, MATLAB
